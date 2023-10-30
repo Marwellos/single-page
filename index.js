@@ -20,4 +20,16 @@ app.get('/home', (req, res) => {
   res.render('home');
 });
 
+//git add -A
+//git commit -m "co jsem udělal"
+//git push -u origin main
+
+
+//git pull origin main
+//# Vyřešte případné konflikty a proveďte commit
+//git push
+
+
+//udelat doma: https://www.youtube.com/watch?v=eUMqJMkwOBY&ab_channel=CodingLab
+//https://github.com/rutikwankhade/Bucket
 
