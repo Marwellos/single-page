@@ -12,12 +12,14 @@
       <form id="survey-form" action="/odeslat" method="post">
         <fieldset>
           <label for="name" id="name-label">Jméno a Příjmení</label>
-          <input id="name" type="text" placeholder=" " required>
+          <input id="name" type="text" name="name" placeholder=" " required>
           
           <label for="email" id="email-label">Email</label>
-          <input id="email" type="email" placeholder=" " required>
+          <input id="email" type="email" name="email" placeholder=" " required>
+
           <label for="phone" id="phone-label">Telefonní číslo:</label>
-          <input id="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder=" " required>                  
+          <input id="phone" type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder=" " required>
+                  
         </fieldset>
         
           
@@ -26,10 +28,11 @@
           <textarea id="other-media" name="other-media" rows="5" cols="30" placeholder="S autem bych chtěl(a)..."></textarea> 
           
           <label class="label">Jakým způsobem chcete být kontaktováni?</label>
-          <p></p>
           <label><input type="radio" id="telefonicky-radio" name="radio-result" value="telefonicky" class="inline"> Telefonicky</label>
           <label><input type="radio" id="emailem-radio" name="radio-result" value="emailem" class="inline"> Emailem</label>
           <label><input type="radio" id="nechci-byt-kontaktovan-radio" name="radio-result" value="nechci-byt-kontaktovan" class="inline"> Nechci být kontaktován</label>
+
+
           
           <input type="submit" value="Odeslat" id="submit">
         </fieldset>
