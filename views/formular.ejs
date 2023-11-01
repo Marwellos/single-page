@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" text="text/css" href="formular.css">
+  </head>
+  <body>
+    <div class="margin">
+      <h1 id="title">Kontaktní formulář</h1>
+      <p id="description">napište nám o jaké služby máte zájem</p>
+      <form id="survey-form" action="#" method="post">
+        <fieldset>
+          <label for="name" id="name-label">Jméno a Příjmení</label>
+          <input id="name" type="text" placeholder=" " required>
+          
+          <label for="email" id="email-label">Email</label>
+          <input id="email" type="email" placeholder=" " required>
+          <label for="phone" id="phone-label">Telefonní číslo:</label>
+          <input id="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder=" " required>                  
+        </fieldset>
+        
+          
+          
+          <label for="other-media" class="label">Co by sis přál(a) s autem udělat ?</label>
+          <textarea id="other-media" name="other-media" rows="5" cols="30" placeholder="S autem bych chtěl(a)..."></textarea> 
+          
+          <label class="label">Jakým způsobem chcete být kontaktováni?</label>
+          <p></p>
+          <label><input type="radio" id="telefonicky-radio" name="radio-result" value="telefonicky" class="inline"> Telefonicky</label>
+          <label><input type="radio" id="emailem-radio" name="radio-result" value="emailem" class="inline"> Emailem</label>
+          <label><input type="radio" id="nechci-byt-kontaktovan-radio" name="radio-result" value="nechci-byt-kontaktovan" class="inline"> Nechci být kontaktován</label>
+          
+          <input type="submit" value="Odeslat" id="submit">
+        </fieldset>
+      </form>
+    <div>
+  </body>
+</html>

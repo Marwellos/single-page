@@ -6,6 +6,8 @@ const path = require('path'); // Import knihovny path pro práci s cestami k sou
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+
+
 const ejs = require('ejs'); // Import šablony EJS pro renderování HTML
 
 
@@ -19,6 +21,11 @@ app.listen(port, () => {
 app.get('/home', (req, res) => {
   res.render('home');
 });
+
+app.get('/formular', (req, res) => {
+  res.render('formular');
+});
+
 
 //git add -A
 //git commit -m "co jsem udělal"
