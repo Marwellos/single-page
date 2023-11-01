@@ -4,6 +4,15 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+.map-container {
+	text-align: center;
+  }
+  
+  iframe {
+	max-width: 50%;
+  }
+  
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
