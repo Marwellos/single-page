@@ -63,6 +63,8 @@ app.post('/odeslat', (req, res) => {
 //git commit -m "co jsem udělal"
 //git push -u origin main
 
+// bla bla
+
 
 //git pull origin main
 //# Vyřešte případné konflikty a proveďte commit
