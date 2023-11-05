@@ -68,7 +68,11 @@ app.post('/odeslat', (req, res) => {
 //# Vyřešte případné konflikty a proveďte commit
 //git push
 
+//proč to ted nefunguje vazne nevim xd
 
 //udelat doma: https://www.youtube.com/watch?v=eUMqJMkwOBY&ab_channel=CodingLab
 //https://github.com/rutikwankhade/Bucket
 
+
+//https://www.youtube.com/watch?v=fX4-YiXxTn0
+//importovat ve škole svoji databázi kterou mám nahranou v db-export
