@@ -71,8 +71,6 @@ app.post('/odeslat', (req, res) => {
 //# Vyřešte případné konflikty a proveďte commit
 //git push
 
-//proč to ted nefunguje vazne nevim xd
-
 //udelat doma: https://www.youtube.com/watch?v=eUMqJMkwOBY&ab_channel=CodingLab
 //https://github.com/rutikwankhade/Bucket
 
@@ -81,4 +79,7 @@ app.post('/odeslat', (req, res) => {
 //importovat ve škole svoji databázi kterou mám nahranou v db-export
 
 
+
 //https://panel.dejvishost.eu/server/e4933305/
+//animated tlačítka
+//https://www.youtube.com/watch?v=PgAZ8KzfhO8&ab_channel=GreatStack
