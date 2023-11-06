@@ -1,5 +1,5 @@
 /* https://panel.dejvishost.eu/server/e4933305/ */
-/*http://w1.ffm1.dejvishost.eu:3100/home*/
+/*https://cardetailing-on.dejvishost.eu/*/
 //LIVE PODPORA 24/7 VZBUDIT V NOCI NENÍ PROBLEM
 
 const express = require('express'); // Import frameworku Express
