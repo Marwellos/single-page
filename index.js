@@ -73,3 +73,6 @@ app.post('/odeslat', (req, res) => {
 
 //https://www.youtube.com/watch?v=fX4-YiXxTn0
 //importovat ve škole svoji databázi kterou mám nahranou v db-export
+
+//animated tlačítka
+//https://www.youtube.com/watch?v=PgAZ8KzfhO8&ab_channel=GreatStack
