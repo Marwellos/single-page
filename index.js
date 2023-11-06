@@ -19,12 +19,11 @@ const mysql = require('mysql2');
 
 // Vytvoř připojení k MySQL databázi
 const db = mysql.createConnection({
-  host: 'localhost', // Název nebo IP adresa serveru MySQL
-  user: 'root', // Uživatelské jméno pro přihlášení k databázi
-  password: 'martinkozler66', // Heslo pro přihlášení k databázi
-  database: 'my_database', // Název databáze
+  host: 'db.ffm1.dejvishost.eu', // Název nebo IP adresa serveru MySQL
+  user: 'u54_YGX01AoTR4', // Uživatelské jméno pro přihlášení k databázi
+  password: 'jYgUf^RJ^Exv14o4.rs.2P.2', // Heslo pro přihlášení k databázi
+  database: 's54_my_database', // Název databáze
 });
-
 // Připojení k databázi
 db.connect((err) => {
   if (err) {
@@ -39,7 +38,7 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
   res.render('home');
 });
 
@@ -58,7 +57,7 @@ app.post('/odeslat', (req, res) => {
       res.redirect('/chyba'); // Pokud dojde k chybě, můžeš přesměrovat na stránku s chybou
     } else {
       console.log('Data byla úspěšně uložena do databáze');
-      res.redirect('/home'); // Pokud vše proběhne v pořádku, přesměruj na stránku s úspěšným odesláním formuláře
+      res.redirect('/'); // Pokud vše proběhne v pořádku, přesměruj na stránku s úspěšným odesláním formuláře
     }
   });
 });
