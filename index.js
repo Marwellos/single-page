@@ -1,3 +1,7 @@
+/* https://panel.dejvishost.eu/server/e4933305/ */
+/*http://w1.ffm1.dejvishost.eu:3100/home*/
+//LIVE PODPORA 24/7 VZBUDIT V NOCI NENÍ PROBLEM
+
 const express = require('express'); // Import frameworku Express
 const app = express(); // Vytvoření instance aplikace Express
 const port = 3001; // Port, na kterém server běží
@@ -75,3 +79,6 @@ app.post('/odeslat', (req, res) => {
 
 //https://www.youtube.com/watch?v=fX4-YiXxTn0
 //importovat ve škole svoji databázi kterou mám nahranou v db-export
+
+
+//https://panel.dejvishost.eu/server/e4933305/
