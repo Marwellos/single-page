@@ -4,7 +4,7 @@
 
 const express = require('express'); // Import frameworku Express
 const app = express(); // Vytvoření instance aplikace Express
-const port = 3001; // Port, na kterém server běží
+const port = 3100; // Port, na kterém server běží
 
 const path = require('path'); // Import knihovny path pro práci s cestami k souborům
 app.set('view engine', 'ejs');
