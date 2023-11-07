@@ -81,7 +81,6 @@ p {
 	color: red;
 }
 
-/* Header section */
 #header {
 	position: fixed;
 	z-index: 1000;
@@ -206,9 +205,7 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* End Header section */
 
-/* Hero Section */
 #hero {
 	background-image: url(./img/hero-bg.png);
 	background-size: cover;
@@ -272,9 +269,7 @@ p {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
 
-/* Services Section */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -334,9 +329,7 @@ p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
 
-/* Projects section */
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -407,9 +400,7 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
 
-/* About Section */
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -456,9 +447,7 @@ p {
 	border: 7px solid red;
 	z-index: -1;
 }
-/* End About Section */
 
-/* contact Section */
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -504,34 +493,33 @@ p {
 	font-weight: 500;
 	color: white;
 }
-/*End contact Section */
 
-/* Footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
-	min-height: 200px;
+	min-height: 100px;
 	flex-direction: column;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 10px;
+	
 }
 #footer h2 {
 	color: white;
 	font-weight: 500;
 	font-size: 1.8rem;
 	letter-spacing: 0.1rem;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 #footer .social-icon {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 2px;
 }
 #footer .social-item {
 	height: 50px;
 	width: 50px;
-	margin: 0 5px;
+	margin: 0 1px;
 }
 #footer .social-item img {
 	filter: grayscale(1);
@@ -544,9 +532,7 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
-/* End Footer */
 
-/* Keyframes */
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -578,9 +564,7 @@ p {
 		font-weight: 500;
 	}
 }
-/* End Keyframes */
 
-/* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
@@ -590,20 +574,15 @@ p {
 		font-size: 6rem;
 	}
 
-	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
 
-	/* Services Section */
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
 
-	/* Project */
 	#projects .project-item {
 		flex-direction: row;
 	}
@@ -622,9 +601,7 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-	/* End Project */
 
-	/* About */
 	#about .about {
 		flex-direction: row;
 	}
@@ -647,9 +624,7 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
 
-	/* contact  */
 	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;
@@ -681,13 +656,10 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	
 }
-/* End Media Query For Tablet */
 
-/* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
-	/* header */
 	#header .hamburger {
 		display: none;
 	}
@@ -707,11 +679,9 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-	/* End header */
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
 }
-/* End  Media Query For Desktop */
