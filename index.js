@@ -5,8 +5,11 @@
 const express = require('express'); // Import frameworku Express
 const app = express(); // Vytvoření instance aplikace Express
 const port = 3100; // Port, na kterém server běží
+var favicon = require('serve-favicon');
+
 
 const path = require('path'); // Import knihovny path pro práci s cestami k souborům
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));// Middleware načte ikonu (favicon) ze složky "public" a souboru "logo.ico" a nastaví ji jako ikonu pro webovou stránku.
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
