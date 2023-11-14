@@ -34,6 +34,7 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
+
 p {
 	color: white;
 	font-size: 1.4rem;
@@ -53,6 +54,19 @@ p {
 }
 .section-title span {
 	color: red;
+}
+
+.package {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
 }
 
 
@@ -686,3 +700,4 @@ p {
 		margin: 1.5%;
 	}
 }
+

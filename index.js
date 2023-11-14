@@ -64,25 +64,3 @@ app.post('/odeslat', (req, res) => {
     }
   });
 });
-
-
-//git add -A
-//git commit -m "co jsem udělal"
-//git push -u origin main
-
-//git pull origin main
-//# Vyřešte případné konflikty a proveďte commit
-//git push
-
-//udelat doma: https://www.youtube.com/watch?v=eUMqJMkwOBY&ab_channel=CodingLab
-//https://github.com/rutikwankhade/Bucket
-
-
-//https://www.youtube.com/watch?v=fX4-YiXxTn0
-//importovat ve škole svoji databázi kterou mám nahranou v db-export
-
-
-
-//https://panel.dejvishost.eu/server/e4933305/
-//animated tlačítka
-//https://www.youtube.com/watch?v=PgAZ8KzfhO8&ab_channel=GreatStack
