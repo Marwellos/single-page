@@ -67,3 +67,5 @@ app.post('/odeslat', (req, res) => {
 
 
 //predelat sekci "cenik" a udelat tam proč si vybrat nas nebo neco na podobný zpusob
+//font-family: 'Verdana', sans-serif;
+//font-family: 'Georgia', serif;
