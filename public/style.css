@@ -243,7 +243,7 @@ p {
 #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 16px;
+	padding: 0 8px;
 	justify-content: flex-start;
 }
 #hero h1 {
@@ -312,7 +312,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/cardetailing.jpg);
+	background-image: url(./img/garaz.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;

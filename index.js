@@ -64,6 +64,3 @@ app.post('/odeslat', (req, res) => {
     }
   });
 });
-
-
-//predelat sekci "cenik" a udelat tam proč si vybrat nas nebo neco na podobný zpusob
